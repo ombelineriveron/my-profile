@@ -1,0 +1,136 @@
+body{
+background-color:#F1C9C2;
+color: #1F3D51;
+font-size: 16px;
+roboto-thin
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+h1{
+  font-family: "Agbalumo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #5D7B6F;
+}
+
+#intro {
+list-style-type: none;
+text-align: justify;
+line-height: 35px;
+}
+
+p{
+line-height: 1.7;
+}
+
+a{
+text-decoration: none;
+color: #18605D;
+font-weight: bold;
+font-family:"Agbalumo", system-ui;
+}
+
+a:hover {
+color:#D0637C;
+transition: color 0.5s ease;
+}
+
+h2{
+font-family: "Agbalumo", system-ui;
+}
+
+.img-circle{
+width: 300px;
+border-radius: 100%;
+box-shadow: 10px 3px 7px #8B776C;
+}
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+    .card-white {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+    .card-white {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+    .card-white {
+        width: 300px;
+    }
+}
+
+.card-white {
+	background: #F4EFED;
+	border-radius: 10px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93,.1);
+	padding: 30px;
+	margin: 20px auto;
+	text-align: center;
+	transition: transform 0.3s;
+}
+
+
+.container {
+width: 700px;
+margin:40px auto;	
+}
+
+.btn-green{
+background-color: #b3cf99;
+padding: 7px 10px;
+border-radius: 4px;	
+}
+
+.btn-green:hover {
+background-color: #FFDCA2;
+transition: color 0.5s ease;
+}
+
+.finalinks li {
+list-style: none;
+display: inline;
+padding: 10px;
+font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
